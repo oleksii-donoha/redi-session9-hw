@@ -32,8 +32,10 @@ x^2, & -5 < x < 2 \\
 
 ## Завдання
 
-1. Створіть папку `tests`, а в ній файл`test_homework.py`
-2. Користуючись прикладом із [класної роботи](https://github.com/oleksii-donoha/redi-session9), напишіть набір тестів,
-   який, на вашу думку, вичерпно тестує функцію `cool_piecewise_function()` із файлу `src/homework.py`
-3. Тести можуть використовувати як `pytest`, так і `unittest` на ваш розсуд.
-4. При запуску тестів у PyCharm всі 100% тестів мають бути успішними
+1. Відкрийте файл `tests/test_homework.py`
+2. Видаліть беззмістовний тест `test_nothing()`
+3. Користуючись прикладом із [класної роботи](https://github.com/oleksii-donoha/redi-session9), напишіть набір тестів,
+   який, на вашу думку, вичерпно тестує функцію `cool_piecewise_function()` із файлу `src/homework.py`. Тести можуть
+   використовувати як `pytest`, так і `unittest`, на ваш розсуд.
+4. При запуску тестів у PyCharm або у GitHub всі 100% тестів мають бути успішними
+5. Здати завдання можна як звичним вам способом у Google Classroom, так і як pull request y GitHub
