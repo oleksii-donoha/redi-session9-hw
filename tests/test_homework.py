@@ -2,25 +2,25 @@
 #     assert True
 
 import unittest
-# import pytest
+import pytest
 from random import uniform
 from src.homework import cool_piecewise_function
-#
-# def pytest_6():
-#     x = uniform(-100, -6.001)
-#     assert cool_piecewise_function(x) == 25
-#
-# def pytest_6_5():
-#     x = uniform(-6, -5)
-#     assert cool_piecewise_function(x) == None
-#
-# def pytest_5_2():
-#     x = uniform(-4.999, 2)
-#     assert cool_piecewise_function(x) == (x ** 2)
-#
-# def pytest_2():
-#     x = uniform(2, 100)
-#     assert cool_piecewise_function(x) == (-5 * (x - 2) + 4)
+
+def test_py_6():
+    x = uniform(-100, -6.001)
+    assert cool_piecewise_function(x) == 25
+
+def test_py_6_5():
+    x = uniform(-6, -5)
+    assert cool_piecewise_function(x) == None
+
+def test_py_5_2():
+    x = uniform(-4.999, 2)
+    assert cool_piecewise_function(x) == (x ** 2)
+
+def test_py_2():
+    x = uniform(2, 100)
+    assert cool_piecewise_function(x) == (-5 * (x - 2) + 4)
 
 class DmytroTestCase(unittest.TestCase):
 
