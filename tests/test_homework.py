@@ -1,6 +1,3 @@
-# def test_nothing():
-#     assert True
-
 import unittest
 # import pytest
 from random import uniform
