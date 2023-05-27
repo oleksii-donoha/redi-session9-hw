@@ -1,3 +1,6 @@
+from __future__ import annotations
+
+
 def cool_piecewise_function(x: float) -> int | float | None:
     """
     Уривчаста і кусково-задана математична функція
